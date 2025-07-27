@@ -5,9 +5,9 @@ import (
 )
 
 type Filters struct {
-	Page     int
-	PageSize int
-	Sort     string
+	Page         int
+	PageSize     int
+	Sort         string
 	SortSafelist []string
 }
 
